@@ -247,17 +247,6 @@ config CPU_FREQ_GOV_BIOSHOCK
 	depends on CPU_FREQ
 	help
 	  'bioshock' - More aggressive version of conservative
-<<<<<<< HEAD
-
-=======
-	  
-config CPU_FREQ_GOV_DARKNESS
-	tristate "'darkness' cpufreq governor"
-	depends on CPU_FREQ
-	help
-	  It's based on nightmare but more simple and fast, basic configs 
-	  but very complex structure. It is an updated version of the 
-	  nightmare gov.
 
 config CPU_FREQ_GOV_UMBRELLA_CORE
 	tristate "'umbrella_core' cpufreq policy governor"
@@ -268,7 +257,6 @@ config CPU_FREQ_GOV_UMBRELLA_CORE
 	  The governor is based on interactive to provide a resident controller
 	  which interprets unnecessary battery drain as evil.
 	  
->>>>>>> 1c6473b... cpufreq: Initial setup for new gov [Umbrella Core]
 config CPU_BOOST
 	tristate "Event base short term CPU freq boost"
 	depends on CPU_FREQ
